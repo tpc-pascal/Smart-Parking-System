@@ -32,6 +32,8 @@ Smart-Parking-System/
 │   ├── diagrams/        # Sơ đồ ERD, Use Case, Sequence
 │   └── srs/             # Tài liệu đặc tả yêu cầu
 ├── data/                # Dữ liệu mẫu và ảnh test
+│   ├── training/        # Hình ảnh và nhãn (Label) dùng để huấn luyện AI
+│   └── testing/         # Hình ảnh dùng để kiểm thử hiệu năng
 └── README.md            # Tài liệu hướng dẫn dự án
 ```
 
