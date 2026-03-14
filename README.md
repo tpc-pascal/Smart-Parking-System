@@ -40,7 +40,7 @@ Smart-Parking-System/
 ## 🙏 Nguồn tham khảo
 
 Dự án có sử dụng bộ dữ liệu nhận diện biển số xe từ repository của tác giả:
-* **winter2897**: [Vienamese Plate Dataset](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano/blob/main/doc/dataset.md)
+* **winter2897**: [Vienamese Plate Dataset](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano/blob/main/doc/dataset.md) ([Hướng dẫn tải](./data/training/DATASET.md))
 
 ## 🤝 Đóng góp
 
