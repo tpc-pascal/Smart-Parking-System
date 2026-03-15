@@ -68,7 +68,7 @@ Dự án có sử dụng bộ dữ liệu nhận diện biển số xe từ repo
 ## 🎉 Tri ân
 
 Rất hoan nghênh sự đóng góp của các cá nhân sau đã giúp dự án hoàn thiện hơn! <br>
-[![Contributors](https://contrib.rocks/image?repo=tpc-pascal/Smart-Parking-System)](https://github.com/tpc-pascal/Smart-Parking-System/graphs/contributors)
+[![Contributors](https://contributors-img.web.app/image?repo=tpc-pascal/Smart-Parking-System)](https://github.com/tpc-pascal/Smart-Parking-System/graphs/contributors)
 
 ## 💡 Một số lưu ý:
 * Đảm bảo code tuân thủ phong cách lập trình chung của dự án.
