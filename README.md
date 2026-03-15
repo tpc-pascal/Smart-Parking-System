@@ -29,7 +29,13 @@ Smart-Parking-System/
 ├── src/                 # Mã nguồn chính của ứng dụng
 ├── ai_module/           # Các script nhận diện biển số xe
 ├── docs/                # Tài liệu thiết kế (SRS, Diagrams, Database)
-│   ├── diagrams/        # Sơ đồ ERD, Use Case, Sequence
+│   ├── diagrams/        # Sơ đồ RD, Use Case (Đặc tả), Sequence, Activity
+│   │   ├── Activity/    # Sơ đồ Activity
+│   │   ├── Relational/  # Sơ đồ RD
+│   │   ├── Sequence/    # Sơ đồ Sequence
+│   │   └── Use Case/    # Sơ đồ Use Case (Đặc tả)
+│   │   │   ├── DacTa/   # Đặc tả Use Case
+│   │   │   └── UC/      # Sơ đồ Use Case
 │   └── srs/             # Tài liệu đặc tả yêu cầu
 ├── data/                # Dữ liệu mẫu và ảnh test
 │   ├── training/        # Hình ảnh và nhãn (Label) dùng để huấn luyện AI
