@@ -53,13 +53,3 @@ Smart-Parking-System/
 | 2 | Lại Bảo Định | 2380600505 | ... |
 | 3 | Trịnh Phú Cường | 2380614500 | ... |
 </details>
-
-## 🙏 Nguồn tham khảo
-
-<details open>
-<summary><b>📚 Tài liệu có liên quan</b></summary>
-
-| STT | Tác giả | Liên kết |
-|:---:|:---|:---|
-| 1 | winter2897 | [Vietnamese Plate Dataset](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano/blob/main/doc/dataset.md) |
-</details>
