@@ -27,20 +27,20 @@ Hệ thống được thiết kế tập trung vào 4 nhóm đối tượng ngư
 ```text
 Smart-Parking-System/
 ├── data/
-│   └── training/             # Nơi chứa và quản lý Dataset huấn luyện AI
-│       └── DATASET.md        # Tài liệu hướng dẫn sử dụng dataset
-├── docs/                     # Toàn bộ tài liệu kỹ thuật của dự án
-│   ├── diagrams/             # Hệ thống sơ đồ minh họa
-│   │   ├── Activity/         # Luồng thực thi của các chức năng (AD)
-│   │   ├── Relational/       # Thiết kế cơ sở dữ liệu (RD)
-│   │   ├── Sequence/         # Tương tác giữa các đối tượng trong hệ thống (SD)
-│   │   └── Use Case/         # Đặc tả chức năng từ góc nhìn người dùng (UCD)
-│   └── srs/                  # Tài liệu đặc tả yêu cầu phần mềm
-├── .gitignore                # Loại bỏ các file rác, file nén nặng và môi trường ảo
-├── CONTRIBUTING.md           # Hướng dẫn đóng góp
-├── CREDITS.md                # Nguồn tài liệu tham khảo
-├── LICENSE                   # Quy định về quyền sử dụng mã nguồn
-└── README.md                 # Tài liệu hướng dẫn tổng quan dự án
+│   └── training/
+│       └── DATASET.md
+├── docs/
+│   ├── diagrams/
+│   │   ├── Activity/
+│   │   ├── Relational/
+│   │   ├── Sequence/
+│   │   └── Use Case/
+│   └── srs/
+├── .gitignore
+├── CONTRIBUTING.md
+├── CREDITS.md
+├── LICENSE
+└── README.md
 ```
 
 ## 🎉 Tác giả
