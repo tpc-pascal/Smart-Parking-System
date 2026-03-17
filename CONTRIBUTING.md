@@ -1,26 +1,47 @@
-## 🤝 Đóng góp
+# Hướng dẫn Đóng góp (Contributing Guidelines)
 
-Để đóng góp, bạn vui lòng thực hiện theo các bước sau:
+Vui lòng đọc kỹ các hướng dẫn dưới đây trước khi bắt đầu đóng góp.
 
-1.  **Fork** dự án này về tài khoản GitHub của bạn.
-2.  **Clone** bản fork về máy cá nhân:
-    ```bash
-    git clone https://github.com/tpc-pascal/Smart-Parking-System.git
-    ```
-3.  **Tạo một Branch mới** để thực hiện thay đổi:
-    ```bash
-    git checkout -b feature/TenTinhNangMoi
-    ```
-4.  **Commit** các thay đổi của bạn kèm thông điệp mô tả rõ ràng:
-    ```bash
-    git commit -m "Tự miêu tả tính năng"
-    ```
-5.  **Push** branch đó lên GitHub:
-    ```bash
-    git push origin feature/TenTinhNangMoi
-    ```
-6.  Mở một **Pull Request** từ branch của bạn trên GitHub để xem xét và merge, tránh mâu thuẫn trong code gây ra lỗi.
+---
 
-## 💡 Một số lưu ý:
-* Đảm bảo code tuân thủ phong cách lập trình chung của dự án.
-* Nếu phát hiện lỗi (Bug), mở một **Issue** kèm theo mô tả chi tiết và hình ảnh (nếu có).
+## 🛠 1. Thiết lập môi trường phát triển (Setup)
+
+...
+
+---
+
+## 🌿 2. Quy trình gửi đóng góp (Git Workflow)
+
+1.  **Fork** dự án về tài khoản cá nhân của bạn.
+2.  **Tạo Branch mới:**
+    * Tính năng mới: `git checkout -b feat/ten-tinh-nang`
+    * Sửa lỗi: `git checkout -b fix/ten-loi`
+    * Tài liệu: `git checkout -b docs/ten-tai-lieu`
+3.  **Commit:** Sử dụng tiếng Việt hoặc tiếng Anh, nhưng phải rõ nghĩa.
+    * *Ví dụ:* `feat: bổ sung lọc xe theo biển số`
+4.  **Push & PR:** Đẩy branch lên GitHub và tạo **Pull Request**.
+
+---
+
+## 📝 3. Quy chuẩn viết mã (Coding Standards)
+
+* **Nhất quán:** Tuân thủ các quy tắc đặt tên đã có sẵn trong dự án.
+* **Comment:** Giải thích các logic phức tạp, đặc biệt là phần xử lý hoặc logic.
+
+---
+
+## 🧪 4. Kiểm thử (Testing)
+
+Trước khi gửi Pull Request, vui lòng đảm bảo:
+
+* Code chạy được trên máy cá nhân mà không gây lỗi biên dịch.
+* Không làm ảnh hưởng đến các tính năng cũ của hệ thống.
+
+---
+
+## 📧 Liên hệ
+
+Nếu có bất kỳ thắc mắc nào về luồng dữ liệu hoặc cấu trúc:
+
+* [Mở một Issue](https://github.com/tpc-pascal/Smart-Parking-System/issues) trên repo này.
+* Gửi câu hỏi qua phần [Thảo luận (Discussions)](https://github.com/tpc-pascal/Smart-Parking-System/discussions) của dự án.
