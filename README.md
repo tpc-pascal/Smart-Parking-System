@@ -28,7 +28,7 @@ Hệ thống được thiết kế tập trung vào 4 nhóm đối tượng ngư
 Smart-Parking-System/
 ├── data/
 │   └── training/             # Nơi chứa và quản lý Dataset huấn luyện AI
-│       └── DATASET.md        # Tài liệu hướng dẫn sử dụng nguồn dữ liệu
+│       └── DATASET.md        # Tài liệu hướng dẫn sử dụng dataset
 ├── docs/                     # Toàn bộ tài liệu kỹ thuật của dự án
 │   ├── diagrams/             # Hệ thống sơ đồ minh họa
 │   │   ├── Activity/         # Luồng thực thi của các chức năng (AD)
@@ -41,10 +41,28 @@ Smart-Parking-System/
 └── README.md                 # Tài liệu hướng dẫn tổng quan dự án
 ```
 
+## 🎉 Tác giả
+
+[![Contributors](https://contributors-img.web.app/image?repo=tpc-pascal/Smart-Parking-System)](https://github.com/tpc-pascal/Smart-Parking-System/graphs/contributors)
+<details open>
+<summary><b>🔍 Các thành viên</b></summary>
+
+| STT | Tên | MSSV | Vai trò |
+|:---:|:---|:---|:---|
+| 1 | Nguyễn Thanh Thiên Phước | 2380601773 | ... |
+| 2 | Lại Bảo Định | 2380600505 | ... |
+| 3 | Trịnh Phú Cường | 2380614500 | ... |
+</details>
+
 ## 🙏 Nguồn tham khảo
 
-Dự án có sử dụng bộ dữ liệu nhận diện biển số xe từ repository của tác giả:
-* **winter2897**: [Vienamese Plate Dataset](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano/blob/main/doc/dataset.md) ([Hướng dẫn tải](./data/training/DATASET.md))
+<details open>
+<summary><b>📚 Tài liệu có liên quan</b></summary>
+
+| STT | Tác giả | Liên kết |
+|:---:|:---|:---|
+| 1 | winter2897 | [Vietnamese Plate Dataset](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano/blob/main/doc/dataset.md) |
+</details>
 
 ## 🤝 Đóng góp
 
@@ -68,11 +86,6 @@ Dự án có sử dụng bộ dữ liệu nhận diện biển số xe từ repo
     git push origin feature/TenTinhNangMoi
     ```
 6.  Mở một **Pull Request** từ branch của bạn trên GitHub để xem xét và merge, tránh mâu thuẫn trong code gây ra lỗi.
-
-## 🎉 Tri ân
-
-Rất hoan nghênh sự đóng góp của các cá nhân sau đã giúp dự án hoàn thiện hơn! <br>
-[![Contributors](https://contributors-img.web.app/image?repo=tpc-pascal/Smart-Parking-System)](https://github.com/tpc-pascal/Smart-Parking-System/graphs/contributors)
 
 ## 💡 Một số lưu ý:
 * Đảm bảo code tuân thủ phong cách lập trình chung của dự án.
