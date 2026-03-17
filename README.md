@@ -26,21 +26,19 @@ Hệ thống được thiết kế tập trung vào 4 nhóm đối tượng ngư
 
 ```text
 Smart-Parking-System/
-├── src/                 # Mã nguồn chính của ứng dụng
-├── ai_module/           # Các script nhận diện biển số xe
-├── docs/                # Tài liệu thiết kế (SRS, Diagrams, Database)
-│   ├── diagrams/        # Sơ đồ RD, Use Case (Đặc tả), Sequence, Activity
-│   │   ├── Activity/    # Sơ đồ Activity
-│   │   ├── Relational/  # Sơ đồ RD
-│   │   ├── Sequence/    # Sơ đồ Sequence
-│   │   └── Use Case/    # Sơ đồ Use Case (Đặc tả)
-│   │   │   ├── DacTa/   # Đặc tả Use Case
-│   │   │   └── UC/      # Sơ đồ Use Case
-│   └── srs/             # Tài liệu đặc tả yêu cầu
-├── data/                # Dữ liệu mẫu và ảnh test
-│   ├── training/        # Hình ảnh và nhãn (Label) dùng để huấn luyện AI
-│   └── testing/         # Hình ảnh dùng để kiểm thử hiệu năng
-└── README.md            # Tài liệu hướng dẫn dự án
+├── data/
+│   └── training/             # Nơi chứa và quản lý Dataset huấn luyện AI
+│       └── DATASET.md        # Tài liệu hướng dẫn sử dụng nguồn dữ liệu
+├── docs/                     # Toàn bộ tài liệu kỹ thuật của dự án
+│   ├── diagrams/             # Hệ thống sơ đồ minh họa
+│   │   ├── Activity/         # Luồng thực thi của các chức năng (AD)
+│   │   ├── Relational/       # Thiết kế cơ sở dữ liệu (RD)
+│   │   ├── Sequence/         # Tương tác giữa các đối tượng trong hệ thống (SD)
+│   │   └── Use Case/         # Đặc tả chức năng từ góc nhìn người dùng (UCD)
+│   └── srs/                  # Tài liệu đặc tả yêu cầu phần mềm
+├── .gitignore                # Loại bỏ các file rác, file nén nặng và môi trường ảo
+├── LICENSE                   # Quy định về quyền sử dụng mã nguồn
+└── README.md                 # Tài liệu hướng dẫn tổng quan dự án
 ```
 
 ## 🙏 Nguồn tham khảo
