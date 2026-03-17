@@ -37,6 +37,8 @@ Smart-Parking-System/
 │   │   └── Use Case/         # Đặc tả chức năng từ góc nhìn người dùng (UCD)
 │   └── srs/                  # Tài liệu đặc tả yêu cầu phần mềm
 ├── .gitignore                # Loại bỏ các file rác, file nén nặng và môi trường ảo
+├── CONTRIBUTING.md           # Hướng dẫn đóng góp
+├── CREDITS.md                # Nguồn tài liệu tham khảo
 ├── LICENSE                   # Quy định về quyền sử dụng mã nguồn
 └── README.md                 # Tài liệu hướng dẫn tổng quan dự án
 ```
