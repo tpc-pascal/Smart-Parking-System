@@ -1,0 +1,4 @@
+train: /content/drive/MyDrive/AI_Bien_So/License-Plate/lpd-dataset/images/train
+val: /content/drive/MyDrive/AI_Bien_So/License-Plate/lpd-dataset/images/val
+nc: 1
+names: ['license_plate']
