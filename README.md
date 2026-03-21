@@ -59,6 +59,7 @@ Smart-Parking-System/
 │   │   ├── LP_recognition.yaml
 │   │   └── nhan-biet-chu-so.pt
 │   ├── Bien-So-Xe.ipynb
+│   ├── MODEL.md
 │   └── requirements.txt
 ├── .gitignore
 ├── CONTRIBUTING.md
