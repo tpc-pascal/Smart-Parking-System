@@ -51,6 +51,15 @@ Smart-Parking-System/
 │   │   ├── Sequence/
 │   │   └── Use Case/
 │   └── srs/
+├── model/
+│   ├── detection/
+│   │   ├── LP_detection.yaml
+│   │   └── nhan-dien-bien-so.pt
+│   ├── recognition/
+│   │   ├── LP_recognition.yaml
+│   │   └── nhan-biet-chu-so.pt
+│   ├── Bien-So-Xe.ipynb
+│   └── requirements.txt
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── CREDITS.md
