@@ -5,6 +5,19 @@
 
 **Smart Parking System** là một giải pháp quản lý bãi giữ xe thông minh, tích hợp công nghệ nhận diện biển số xe (License Plate Recognition - LPR) để tự động hóa quy trình kiểm soát ra vào, tối ưu hóa không gian đỗ xe và nâng cao tính an ninh.
 
+## 🎉 Tác giả
+
+[![Contributors](https://contributors-img.web.app/image?repo=tpc-pascal/Smart-Parking-System)](https://github.com/tpc-pascal/Smart-Parking-System/graphs/contributors)
+<details open>
+<summary><b>🔍 Các thành viên</b></summary>
+
+| STT | Tên | MSSV | Vai trò |
+|:---:|:---|:---|:---|
+| 1 | Nguyễn Thanh Thiên Phước | 2380601773 | ... |
+| 2 | Lại Bảo Định | 2380600505 | ... |
+| 3 | Trịnh Phú Cường | 2380614500 | ... |
+</details>
+
 ## 🚀 Tính năng chính
 
 Hệ thống được thiết kế tập trung vào 4 nhóm đối tượng người dùng chính:
@@ -27,8 +40,10 @@ Hệ thống được thiết kế tập trung vào 4 nhóm đối tượng ngư
 ```text
 Smart-Parking-System/
 ├── data/
+│   ├── testing/
+│   │   └── TESTING_DATASET.md
 │   └── training/
-│       └── DATASET.md
+│       └── TRAINING_DATASET.md
 ├── docs/
 │   ├── diagrams/
 │   │   ├── Activity/
@@ -43,15 +58,14 @@ Smart-Parking-System/
 └── README.md
 ```
 
-## 🎉 Tác giả
+## 🚅 Bộ dữ liệu
 
-[![Contributors](https://contributors-img.web.app/image?repo=tpc-pascal/Smart-Parking-System)](https://github.com/tpc-pascal/Smart-Parking-System/graphs/contributors)
-<details open>
-<summary><b>🔍 Các thành viên</b></summary>
+Đọc thêm tại [TRAINING_DATASET.md](./data/training/TRAINING_DATASET.md) và [TESTING_DATASET.md](./data/testing/TESTING_DATASET.md)
 
-| STT | Tên | MSSV | Vai trò |
-|:---:|:---|:---|:---|
-| 1 | Nguyễn Thanh Thiên Phước | 2380601773 | ... |
-| 2 | Lại Bảo Định | 2380600505 | ... |
-| 3 | Trịnh Phú Cường | 2380614500 | ... |
-</details>
+## ✈ Hướng dẫn đóng góp
+
+Đọc thêm tại [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+## 🙏 Nguồn tham khảo
+
+Đọc thêm tại [CREDITS.md](./CREDITS.md)
