@@ -8,8 +8,8 @@ Do giới hạn dung lượng, dữ liệu thực tế được lưu trữ tập
 * **Link Google Drive:** [License-Plate](https://drive.google.com/drive/folders/14N8wrz-H5rJgPeBCskf4jlIp0dH_Sage?usp=sharing)
 * **Tổng dung lượng:** ~452 MB
 * **Chi tiết các gói dữ liệu:**
-    * `lpd-dataset` (~333.3 MB): Chứa hình ảnh và nhãn (label) phục vụ bài toán **Phát hiện biển số xe**.
-    * `lpr-dataset` (~118.6 MB): Chứa dữ liệu ký tự đã cắt để huấn luyện bài toán **Nhận diện ký tự**.
+    * `lpd-dataset`: Chứa hình ảnh và nhãn (label) phục vụ bài toán **Phát hiện biển số xe**.
+    * `lpr-dataset`: Chứa hình ảnh biển số trực diện và ký tự đã cắt rõ ràng để huấn luyện bài toán **Nhận diện ký tự**.
 * **Lưu ý:** Làm bước nào thì sử dụng lần lượt đúng gói đó.
 
 ## 🛠 Hướng dẫn cài đặt
