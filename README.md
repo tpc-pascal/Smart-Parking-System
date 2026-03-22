@@ -61,6 +61,7 @@ Smart-Parking-System/
 │   ├── Bien-So-Xe.ipynb
 │   ├── MODEL.md
 │   └── requirements.txt
+├── .gitattributes
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── CREDITS.md
