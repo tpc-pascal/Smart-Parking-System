@@ -54,12 +54,12 @@ Smart-Parking-System/
 ├── model/
 │   ├── detection/
 │   │   ├── LP_detection.yaml
+│   │   ├── nhan-dien-bien-so.ipynb
 │   │   └── nhan-dien-bien-so.pt
 │   ├── recognition/
 │   │   ├── LP_recognition.yaml
+│   │   ├── nhan-biet-chu-so.ipynb
 │   │   └── nhan-biet-chu-so.pt
-│   ├── nhan-dien-bien-so.ipynb
-│   ├── nhan-biet-chu-so.ipynb
 │   ├── MODEL.md
 │   └── requirements.txt
 ├── .gitattributes
