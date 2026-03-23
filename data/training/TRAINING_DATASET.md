@@ -1,6 +1,6 @@
 # 📊 Bộ dữ liệu huấn luyện (Training Dataset)
 
-Thư mục này chứa các tệp tin hướng dẫn và dữ liệu mẫu (Sample) nhằm giúp bạn hình dung cấu trúc dữ liệu trước khi tải bộ dữ liệu đầy đủ.
+Thư mục này chứa tệp tin hướng dẫn tải bộ dữ liệu đầy đủ.
 
 ## 📥 Tải xuống dữ liệu đầy đủ
 Do giới hạn dung lượng, dữ liệu thực tế được lưu trữ tập trung tại Google Drive:
