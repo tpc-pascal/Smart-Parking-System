@@ -1,0 +1,36 @@
+name: Sync to Hugging Face hub
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.name "tpc-pascal"
+          git config --global user.email "tpcmemory2005@gmail.com"
+          git config lfs.allowincompletepush true
+
+          mkdir /tmp/hf_files
+          cp -r hf/* /tmp/hf_files/
+          cp hf/.gitattributes /tmp/hf_files/ 2>/dev/null || true
+
+          cd /tmp/hf_files
+          git init -b main
+          git config user.name "tpc-pascal"
+          git config user.email "tpcmemory2005@gmail.com"
+
+          git add .
+          git commit -m "Deploy clean files from hf folder"
+
+          git push --force https://tpc-pascal:$HF_TOKEN@huggingface.co/spaces/tpc-pascal/LPR main
