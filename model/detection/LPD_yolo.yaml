@@ -1,0 +1,6 @@
+path: /content/LPD_dataset
+train: train/images
+val: val/images
+nc: 1
+names:
+  0: license_plate
