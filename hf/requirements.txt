@@ -1,0 +1,12 @@
+gradio
+numpy
+ultralytics
+opencv-python-headless
+pandas
+requests
+pyyaml
+tqdm
+matplotlib
+seaborn
+torch
+torchvision
