@@ -1,0 +1,26 @@
+# 📊 Bộ dữ liệu huấn luyện (Training Dataset)
+
+Thư mục này chứa tệp tin hướng dẫn tải bộ dữ liệu đầy đủ.
+
+## 📥 Tải xuống dữ liệu đầy đủ
+Do giới hạn dung lượng, dữ liệu thực tế được lưu trữ tập trung tại Google Drive:
+
+* **Link Google Drive:** [Bo_Du_Lieu](https://drive.google.com/drive/folders/14fxd5yT-KXZ2DSlYlDeTmmOtmXgKKK8d?usp=sharing)
+* **Tổng dung lượng:** ~2.5GB
+* **Chi tiết các gói dữ liệu:**
+    * `LPD_dataset`: Chứa hình ảnh và nhãn (label) phục vụ bài toán **Phát hiện biển số xe**.
+    * `LPR_dataset`: Chứa hình ảnh biển số trực diện và ký tự đã cắt rõ ràng để huấn luyện bài toán **Nhận diện ký tự**.
+* **Lưu ý:** Làm bước nào thì sử dụng lần lượt đúng gói đó.
+
+## 🛠 Hướng dẫn cài đặt
+Sau khi tải về, bạn sẽ nhận được đúng cấu trúc thư mục thế này:
+
+```
+~/
+├── images/
+│   ├── train/
+│   └── val/
+└── labels/
+    ├── train/
+    └── val/
+```
